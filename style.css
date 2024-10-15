@@ -11,9 +11,12 @@ body {
 }
 
 form {
-    height: 40vh; /* Adjust height to be responsive */
-    width: 90vw;  /* Use viewport width for responsiveness */
-    max-width: 400px; /* Limit max-width for larger screens */
+    height: 40vh;
+    /* Adjust height to be responsive */
+    width: 90vw;
+    /* Use viewport width for responsiveness */
+    max-width: 400px;
+    /* Limit max-width for larger screens */
     padding: 20px;
     display: grid;
     place-items: center;
@@ -31,7 +34,8 @@ form {
     background: #1f6d9a;
 }
 
-#yes, #no {
+#yes,
+#no {
     width: 100%;
     background-color: green;
     border-radius: 8px;
@@ -45,14 +49,16 @@ form {
     background-color: red;
 }
 
+
 /* Media query for smaller screens */
+
 @media (max-width: 600px) {
     form {
         width: 80vw;
         padding: 15px;
     }
-    
-    #yes, #no {
+    #yes,
+    #no {
         padding: 10px;
         font-size: 14px;
     }
